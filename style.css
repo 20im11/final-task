@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background-image: url(assets/images/background-2.svg);
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  background-color: #ffffff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  margin-right: 1.4em;
+  font-size: 1.2rem;
+  background-color: #4ba87d;
+  color: #ffffff;
+  border: 10px solid #4ba87d;
+  font-weight: 800;
+}
+.button {
+  text-decoration: none;
+  color: #ffffff;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.ninja-mail-logo,
+.ninja-mail-text {
+  width: 10em;
+  height: auto;
+}
+li {
+  list-style-type: none;
+}
+
+.features,
+.pricing,
+.services,
+.partners {
+  text-decoration: underline 3px #4ba87d;
+  margin: 0 1.1em;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.nav-items {
+  margin-left: 15%;
+  display: none;
+  margin-right: 2em;
+}
+
+/* MAIN CSS */
+
+.email-campaign {
+  width: 100%;
+  margin-top: 4em;
+  padding-right: 1.4em;
+  padding-left: 1.4em;
+}
+.topside-text {
+  position: absolute;
+  top: 0;
+  left: 1.2em;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+.email-campaign-tab {
+  display: none;
+}
+
+.container {
+  position: relative;
+}
+.text-on-campaign {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.9rem;
+  display: inline-block;
+}
+.mobile-style {
+  margin-top: 2em;
+  margin-left: 1.4em;
+}
+.get-demo,
+.get-demo-1 {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  padding: 8px;
+  margin-top: 1.5em;
+}
+.buttons {
+  margin-top: 2em;
+  display: flex;
+  margin-left: 1em;
+}
+.test {
+  display: none;
+}
+.wrap-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* section 1  */
+
+.cover-2 {
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 2em;
+}
+.sec-1 {
+  background-image: url(assets/images/background-2.svg);
+  margin-top: 5em;
+}
+.text-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+}
+.wrap-cover {
+  position: relative;
+}
+.learn {
+  margin-right: 1.4em;
+  font-size: 1.2rem;
+  background-color: white;
+  color: green;
+  border: 5px solid white;
+  font-weight: 800;
+  margin-left: 5em;
+  margin-top: 5em;
+  font-size: 1rem;
+}
+.cards {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  background-image: url(assets/images/greenbck.svg);
+}
+.card-1-p,
+.card-2-p {
+  margin-top: 0.6em;
+  display: inline-block;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  margin-left: 4em;
+  border: 1px dotted #4ba87d;
+}
+.card-1 {
+  margin-left: 1em;
+}
+.learn-more {
+  margin-left: 4em;
+  margin-top: 1em;
+  color: #4ba87d;
+}
+.card-1-photo {
+  width: auto;
+}
+.card-1-pc,
+.card-2-pc {
+  display: none;
+  box-shadow: 2px 2px 2px 2px green;
+}
+.learn-m {
+  text-decoration: none;
+}
+.card-2 {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: 3%;
+}
+h2 {
+  font-size: 2.1rem;
+  color: #000000;
+}
+.text-below {
+  text-align: center;
+  margin-top: 1em;
+}
+.below-p {
+  margin-top: 1em;
+  font-weight: 500;
+}
+.card-1-photo,
+.card-2-mob {
+  width: 30em;
+}
+h2 {
+  text-shadow: black 1px 0 2px;
+}
+.reach {
+  text-shadow: red 1px 0 10px;
+}
+.wrapper-f {
+  display: absolute;
+  transform: translate(5%, -140%);
+  color: white;
+  font-size: 1.4rem;
+}
+.frankie {
+  display: relative;
+}
+.for-flex {
+  display: flex;
+  margin-top: 5em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(assets/images/background.svg);
+}
+.for-txt {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.for-pc {
+  display: none;
+}
+.input {
+  text-align: center;
+  margin-top: 1.2em;
+}
+.message {
+  color: #4ba87d;
+}
+.join {
+  margin-top: 1em;
+}
+#input-email {
+  width: auto;
+  height: 2em;
+}
+.adition {
+  text-align: center;
+  margin-right: 16em;
+  color: #4ba87d;
+  display: none;
+}
+.all-brands {
+  margin-top: 3em;
+  text-align: center;
+  text-shadow: none;
+}
+.brand-1,
+.brand-2,
+.brand-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-left: 3em;
+}
+.brands {
+  margin-top: 5em;
+}
+.cover-3 {
+  width: 100%;
+  height: 30vh;
+  background-color: #4ba87d;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.start-today {
+  box-shadow: none;
+  color: white;
+  font-size: 4rem;
+}
+.plan {
+  border-color: white;
+  color: #4ba87d;
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  margin-top: 3em;
+}
+.mobile-footer {
+  margin-top: 4em;
+}
+
+footer .fl {
+  margin-left: 2.8em;
+  margin-top: 1em;
+  font-size: 1.2rem;
+  margin-right: 4em;
+}
+.for-list-flex {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  margin-top: 3em;
+}
+.ninja,
+.mail {
+  width: 50px;
+  display: none;
+}
+.wrapper-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+  align-items: center;
+}
+.copyright-p {
+  font-weight: 200;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 1em;
+  margin-left: 3em;
+}
+.copyright {
+  justify-content: center;
+  align-items: center;
+}
